@@ -4,6 +4,6 @@ describe('Application', () => {
     });
 
     it('should have a title', () => {
-        expect(browser.getTitle()).toMatch('Angular Webpack Starter Kit');
+        expect(browser.getTitle()).toMatch('FountainJS');
     });
 });
