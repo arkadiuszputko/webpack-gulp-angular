@@ -5,7 +5,7 @@ if (!chromedriver.path) {
 }
 
 exports.config = {
-    baseUrl: 'http://localhost:3002/',
+    baseUrl: 'http://localhost:3000/',
 
     /** use `npm run e2e` */
     specs: [
