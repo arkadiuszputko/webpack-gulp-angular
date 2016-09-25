@@ -1,9 +1,9 @@
 describe('Application', () => {
-    beforeEach(() => {
-        browser.get('/');
-    });
+  beforeEach(() => {
+    browser.get('/');
+  });
 
-    it('should have a title', () => {
-        expect(browser.getTitle()).toMatch('FountainJS');
-    });
+  it('should have a title', () => {
+    expect(browser.getTitle()).toMatch('FountainJS');
+  });
 });
